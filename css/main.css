@@ -1,0 +1,192 @@
+/* Code for Home Page/Navegation */
+html {
+  background-color: #eaf0f6;
+}
+
+main {
+  width: 78%;
+  margin: 30px 100px 30px 100px;
+  padding: auto;
+  border: auto;
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  font-size: 18px;
+}
+
+#mySidenav a {
+  position: absolute;
+  left: -100px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 130px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#home {
+  top: 20px;
+  background-color: #4caf50;
+}
+
+#contact {
+  top: 80px;
+  background-color: #2196f3;
+}
+
+#aboutme {
+  top: 140px;
+  background-color: #f44336;
+}
+
+#portfolio {
+  top: 200px;
+  background-color: #555;
+}
+
+main {
+  text-align: center;
+  font-size: 50px;
+  font-family: serif;
+}
+
+/* Code for the Contact Page */
+
+.container {
+  box-sizing: border-box;
+  position: center;
+  right: 0;
+  margin: 0px 26px 26px 150px;
+  max-width: 300px;
+  padding: 0px 16px 16px 16px;
+  background-color: rgba(255, 255, 255, 0, 9);
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px 6px 10px 10px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.container {
+  position: relative;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 330px;
+  right: -800px;
+  left: 300x;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+/* Code for the About Me */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 20%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.topButton {
+  border: solid 0px #ced0d4;
+  border-radius: 6px;
+  font-size: 23px;
+  padding: 6px, 20px;
+  text-decoration: none;
+  color: white;
+}
+
+/* Facebook style blue buttom design  */
+/*   -moz-box-shadow:    inset 0 1px 0 0 #4d73bf;
+  -webkit-box-shadow: inset 0 1px 0 0 #4d73bf;
+  box-shadow:         inset 0 1px 0 0 #4d73bf;
+  background: #4267b2;
+  border: solid 1px #4267b2 ;
+  text-shadow: 0 3px 0 #3359a5;
+
+ .topButton:hover{
+   background: #2b54a7;
+ }
+
+ .topButton:active{
+   background: #1d4698;
+   border-color: #1d4698;
+ } */
+
+.topButton {
+  background: #f6f7f9;
+  color: #4b4f56;
+}
+
+.topButton:hover {
+  background: #e9ebee;
+}
+
+.topButton:active {
+  background: #d8dade;
+  border-color: #d8dade;
+}
