@@ -45,6 +45,19 @@
   top: 200px;
   background-color: #555;
 }
+/* body layout and design */
+
+/* main content */
+main {
+  width: 60%;
+  margin: 10px auto;
+  padding: auto;
+  border: auto;
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  font-size: 18px;
+}
 
 /* Photos */
 .row {
