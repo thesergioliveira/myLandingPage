@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  background-image: url(../img/IMG_20180103_120055.jpg);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* general layout */
+body {
+}
+
+/* navigation */
+.mySidenav a {
+  position: absolute;
+  left: -100px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 130px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+.mySidenav a:hover {
+  left: 0;
+}
+
+.home {
+  top: 20px;
+  background-color: #4caf50;
+}
+
+.contact {
+  top: 80px;
+  background-color: #2196f3;
+}
+
+.aboutme {
+  top: 140px;
+  background-color: #f44336;
+}
+
+.portfolio {
+  top: 200px;
+  background-color: #555;
+}
+
+/* main content*/
+.hello {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(85, 80, 80, 0.425);
+}
+
+h1 {
+  color: rgb(124, 10, 2);
+  font-size: 3rem;
+}
+
+sub {
+  color: black;
+  font-size: 5rem;
+}
+
+P {
+  text-decoration: underline;
+}
