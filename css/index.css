@@ -60,7 +60,7 @@
 }
 
 h1 {
-  color: rgb(124, 10, 2);
+  color: rgba(133, 35, 28, 0.885);
   font-size: 3rem;
 }
 
@@ -70,5 +70,4 @@ sub {
 }
 
 P {
-  text-decoration: underline;
 }
