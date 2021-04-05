@@ -7,6 +7,7 @@
 :root {
   font-size: 16px;
   background-image: url(../img/9903da6e5f0038a281a170e81a46e7ec.jpg);
+  background-size: 100vw 100vh;
   background-repeat: no-repeat;
 }
 
@@ -47,14 +48,38 @@
   background-color: #555;
 }
 
+/* general layout of the page */
+main {
+  margin-top: 3rem;
+  width: 80%;
+  margin: auto;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12rem;
+}
 .container {
   box-sizing: border-box;
   position: center;
   right: 0;
-  margin: 0px 26px 26px 150px;
+  margin: auto;
+  margin-top: 10rem;
   max-width: 300px;
   padding: 0px 16px 16px 16px;
   background-color: rgba(255, 255, 255, 0, 9);
+}
+
+.quote {
+  /* border: 2px dashed red; */
+  width: 20vw;
+  height: 10vh;
+  background-color: rgba(0, 0, 0, 0.576);
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 input[type="text"],
@@ -88,15 +113,4 @@ input[type="password"]:focus {
 
 .container {
   position: relative;
-}
-
-.text-block {
-  position: absolute;
-  bottom: 330px;
-  right: -800px;
-  left: 300x;
-  background-color: black;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
 }
