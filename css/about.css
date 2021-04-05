@@ -91,3 +91,14 @@ main {
     max-width: 100%;
   }
 }
+
+/* Footer section */
+
+.topButton {
+  border: solid 0px #ced0d4;
+  border-radius: 6px;
+  font-size: 23px;
+  padding: 6px, 20px;
+  text-decoration: none;
+  color: white;
+}
